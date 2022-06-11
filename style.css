@@ -165,8 +165,8 @@ body{
     }
 
     #box{
-        height: 340px;
-        width: 340px;
+        height: 320px;
+        width: 320px;
         background-color: gainsboro;
         border:5px solid rgb(199, 206, 228);
         display:flex;
@@ -174,8 +174,8 @@ body{
     } 
     
     #box div{
-        height:17px;
-        width:17px;
+        height:13.9px;
+        width:13.9px;
         border:1px solid rgb(255, 255, 255);
         display: flex;
         justify-content: center;
