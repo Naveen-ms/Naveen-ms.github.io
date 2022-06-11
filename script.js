@@ -1,6 +1,6 @@
 var rows = 20;
 var columns = 20;
-var total_mines = 40;
+var total_mines = 10;
 var board= [];
 var bomb_location = generate_mines();
 var tilesClicked = 0;
@@ -122,6 +122,8 @@ function nearest_count(row,col){
     total_tiles++;
     if(total_tiles==(rows*columns-total_mines)){
         document.getElementById('Message').innerText="You Win!!";
+        finish=true;
+        startTimer();
     }
     if(total_count!=0){
         board[row][col].innerText=total_count;
