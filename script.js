@@ -1,6 +1,6 @@
 var rows = 20;
 var columns = 20;
-var total_mines = 10;
+var total_mines = 40;
 var board= [];
 var bomb_location = generate_mines();
 var tilesClicked = 0;
